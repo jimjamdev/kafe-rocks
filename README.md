@@ -54,3 +54,4 @@ Hint: I've not had time to finish off and I'm getting chased. So things to do ar
 - SEO using React Head
 - Move page/index code into a template
 - Add more font styles, line-heights etc
+- My bitbucket ain't working and I'm too tired right now. I have to recreate the project for github and lost my branches. Resetting the origin was erroring on me. There was only 3 - init, components-styles and clean-up
