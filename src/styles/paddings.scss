@@ -1,0 +1,85 @@
+@import "theme/base";
+@import "mixins/media-queries";
+
+// Defaults
+@each $key, $size in $spacing {
+  .padding-#{$key} {
+    padding: $size;
+  }
+  .padding-top-#{$key} {
+    padding-top: $size;
+  }
+  .padding-left-#{$key} {
+    padding-left: $size;
+  }
+  .padding-right-#{$key} {
+    padding-right: $size;
+  }
+  .padding-bottom-#{$key} {
+    padding-bottom: $size;
+  }
+}
+
+// Mobile
+@each $key, $size in $spacing {
+  @include mq(mobile) {
+    .padding-mobile-#{$key} {
+      padding: $size;
+    }
+    .padding-top-mobile-#{$key} {
+      padding-top: $size;
+    }
+    .padding-left-mobile-#{$key} {
+      padding-left: $size;
+    }
+    .padding-right-mobile-#{$key} {
+      padding-right: $size;
+    }
+    .padding-bottom-mobile-#{$key} {
+      padding-bottom: $size;
+    }
+  }
+}
+
+// Tablet
+@each $key, $size in $spacing {
+  @include mq(tablet) {
+    .padding-tablet-#{$key} {
+      padding: $size;
+    }
+    .padding-top-tablet-#{$key} {
+      padding-top: $size;
+    }
+    .padding-left-tablet-#{$key} {
+      padding-left: $size;
+    }
+    .padding-right-tablet-#{$key} {
+      padding-right: $size;
+    }
+    .padding-bottom-tablet-#{$key} {
+      padding-bottom: $size;
+    }
+  }
+}
+
+// Desktop
+
+@each $key, $size in $spacing {
+  @include mq(desktop) {
+    .padding-desktop-#{$key} {
+      padding: $size
+    }
+    .padding-top-desktop-#{$key} {
+      padding-top: $size
+    }
+    .padding-left-desktop-#{$key} {
+      padding-left: $size
+    }
+    .padding-right-desktop-#{$key} {
+      padding-right: $size
+    }
+    .padding-bottom-desktop-#{$key} {
+      padding-bottom: $size
+    }
+  }
+}

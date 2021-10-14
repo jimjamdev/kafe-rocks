@@ -1,0 +1,30 @@
+@import "/src/styles/theme/base";
+@import "/src/styles/mixins/media-queries";
+
+.root {
+  padding: $cardPadding;
+  @include mq(tablet) {
+    padding: $cardPaddingTablet;
+  }
+  @include mq(desktop) {
+    padding: $cardPaddingDesktop;
+  }
+}
+
+.rounded {
+  border-radius: $cardBorderRadius;
+}
+
+.shadowZ1 {
+  box-shadow: $shadowZ1;
+}
+.shadowZ2 {
+  box-shadow: $shadowZ2;
+}
+.shadowZ3 {
+  box-shadow: $shadowZ3;
+}
+
+.filled {
+  background: $cardBackgroundColor;
+}

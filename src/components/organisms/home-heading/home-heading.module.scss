@@ -1,0 +1,8 @@
+@import '/src/styles/mixins/media-queries';
+
+.root {
+  display: grid;
+  @include mq(desktop) {
+    grid-template-columns: 1fr auto;
+  }
+}

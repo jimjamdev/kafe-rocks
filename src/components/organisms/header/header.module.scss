@@ -1,0 +1,11 @@
+@import "/src/styles/theme/base";
+@import '/src/styles/mixins/media-queries';
+
+.root {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  height: $headerHeight;
+  background: $headerBackground;
+  color: $headerTextColor;
+}

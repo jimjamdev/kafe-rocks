@@ -1,0 +1,43 @@
+@import "src/styles/theme/base";
+@import "/src/styles/mixins/elllipsis";
+
+// Root
+.root {
+  -webkit-font-smoothing: antialiased;
+  font-weight: normal;
+}
+
+// Sizes
+.small {
+  font-size: $textSmall;
+}
+.medium {
+  font-size: $textMedium;
+}
+.large {
+  font-size: $textLarge;
+}
+
+// Colors
+.light {
+  color: $textLightColor;
+}
+.medium {
+  color: $textMediumColor;
+}
+.dark {
+  color: $textDarkColor;
+}
+.darker {
+  color: $textDarkerColor;
+}
+.primary {
+  color: $colorPrimary;
+}
+.secondary {
+  color: $colorSecondary;
+}
+
+.ellipsis {
+  @include ellipsis;
+}

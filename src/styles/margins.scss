@@ -1,0 +1,85 @@
+@import "theme/base";
+@import "mixins/media-queries";
+
+// Defaults
+@each $key, $size in $spacing {
+  .margin-#{$key} {
+    margin: $size;
+  }
+  .margin-top-#{$key} {
+    margin-top: $size;
+  }
+  .margin-left-#{$key} {
+    margin-left: $size;
+  }
+  .margin-right-#{$key} {
+    margin-right: $size;
+  }
+  .margin-bottom-#{$key} {
+    margin-bottom: $size;
+  }
+}
+
+// Mobile
+@each $key, $size in $spacing {
+  @include mq(mobile) {
+    .margin-mobile-#{$key} {
+      margin: $size;
+    }
+    .margin-top-mobile-#{$key} {
+      margin-top: $size;
+    }
+    .margin-left-mobile-#{$key} {
+      margin-left: $size;
+    }
+    .margin-right-mobile-#{$key} {
+      margin-right: $size;
+    }
+    .margin-bottom-mobile-#{$key} {
+      margin-bottom: $size;
+    }
+  }
+}
+
+// Tablet
+@each $key, $size in $spacing {
+  @include mq(tablet) {
+    .margin-tablet-#{$key} {
+      margin: $size;
+    }
+    .margin-top-tablet-#{$key} {
+      margin-top: $size;
+    }
+    .margin-left-tablet-#{$key} {
+      margin-left: $size;
+    }
+    .margin-right-tablet-#{$key} {
+      margin-right: $size;
+    }
+    .margin-bottom-tablet-#{$key} {
+      margin-bottom: $size;
+    }
+  }
+}
+
+// Desktop
+
+@each $key, $size in $spacing {
+  @include mq(desktop) {
+    .margin-desktop-#{$key} {
+      margin: $size
+    }
+    .margin-top-desktop-#{$key} {
+      margin-top: $size
+    }
+    .margin-left-desktop-#{$key} {
+      margin-left: $size
+    }
+    .margin-right-desktop-#{$key} {
+      margin-right: $size
+    }
+    .margin-bottom-desktop-#{$key} {
+      margin-bottom: $size
+    }
+  }
+}

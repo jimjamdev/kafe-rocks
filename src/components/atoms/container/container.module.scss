@@ -1,0 +1,7 @@
+@import "./src/styles/theme/base";
+
+.root {
+  margin: auto;
+  max-width: $containerMaxWidth;
+  padding: $containerPadding;
+}

@@ -1,0 +1,30 @@
+@import "src/styles/theme/base";
+
+.root {
+  position: absolute;
+  display: none;
+  background: $colorDarker;
+  font-size: 12px;
+  padding: 0.25rem 0.5rem;
+  top: 2rem;
+  border-radius: 0.25rem;
+  color: $colorLight;
+  &:before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    right: 50%;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid $colorDarker;
+  }
+}
+
+.show {
+  position: absolute;
+  display: block;
+}
+

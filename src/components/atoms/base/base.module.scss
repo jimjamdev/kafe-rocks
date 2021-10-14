@@ -1,0 +1,66 @@
+// Maybe some commonly used based styles
+@import "/src/styles/theme/base";
+
+//$colorLight: white !default;
+//$colorMedium: #F4F4F4 !default;
+//$colorDark: #626262 !default;
+//$colorDarker: #202020 !default;
+//$primaryColor: #4A84BF !default;
+//$secondaryColor: tomato !default;
+
+.root {}
+
+.colorLight {
+  color: $colorLight;
+}
+.colorMedium {
+  color: $colorMedium;
+}
+.colorDark {
+  color: $colorDark
+}
+.colorDarker {
+  color: $colorDarker;
+}
+.colorPrimary {
+  color: $colorPrimary;
+}
+.colorSecondary {
+  color: $colorSecondary;
+}
+
+.backgroundColorLight {
+  background-color: $colorLight;
+}
+.backgroundColorMedium {
+  background-color: $colorMedium;
+}
+.backgroundColorDark {
+  background-color: $colorDark;
+}
+.backgroundColorDarker {
+  background-color: $colorDarker;
+}
+.backgroundColorPrimary {
+  background-color: $colorPrimary;
+}
+.backgroundColorSecondary {
+  background-color: $colorSecondary;
+}
+
+// Margins
+.margin {
+  margin: 1rem;
+}
+.marginLeft {
+  margin-left: 1rem;
+}
+.marginRight {
+  margin-right: 1rem;
+}
+.marginTop {
+  margin-top: 1rem;
+}
+.marginBottom {
+  margin-bottom: 1rem;
+}

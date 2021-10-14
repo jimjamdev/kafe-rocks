@@ -1,0 +1,9 @@
+@import "./src/styles/theme/base";
+
+.root {
+  display: inline-block;
+}
+
+.star {
+  color: $ratingColor;
+}

@@ -1,0 +1,35 @@
+@import "theme/base";
+@import "mixins/media-queries";
+@import "mixins/elllipsis";
+@import "reset";
+@import "margins";
+@import "paddings";
+
+#___gatsby {
+  min-height: 100vh;
+}
+
+body {
+  background: $bodyBackgroundColor;
+  font-family: $bodyFontFamily;
+  font-size: $bodyFontSize;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+a {
+  color: $linkColor;
+}
+a:hover {
+  color: $linkHoverColor;
+}
+a:active {
+  color: $linkActiveColor;
+}
+a:visited {
+  color: $linkVisitedColor;
+}

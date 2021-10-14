@@ -1,0 +1,13 @@
+@import '../theme/base';
+
+@mixin mq($breakpoint) {
+  @if($breakpoint == mobile)  {
+    @media (min-width: $bpMobile) { @content }
+  }
+  @if($breakpoint == tablet)  {
+    @media (min-width: $bpTablet) { @content }
+  }
+  @if($breakpoint == desktop)  {
+    @media (min-width: $bpDesktop) { @content }
+  }
+}

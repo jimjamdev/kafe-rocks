@@ -1,0 +1,10 @@
+// Body
+$bodyBackgroundColor: $colorMedium !default;
+$bodyTextColor: $colorDarker !default;
+$bodyFontSize: 1.2rem !default;
+$bodyFontFamily: Arial,Helvetica Neue,Helvetica,sans-serif !default;
+$bodyFontSize: 16px !default;
+$linkColor: $colorPrimary !default;
+$linkHoverColor: lighten($colorPrimary, 10%) !default;
+$linkActiveColor: lighten($colorPrimary, 15%) !default;
+$linkVisitedColor: darken($colorPrimary, 5%) !default;
